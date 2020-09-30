@@ -77,3 +77,18 @@
 //     })
         
 // });
+
+
+// Search Input
+const searchNews = document.getElementById('searchNews');
+
+// Search input event listener
+searchNews.addEventListener('keyup', (e) => {
+    // Get input text
+    const newsText = e.target.value;
+    // console.log(newsText)
+    // We make sure its not blank
+    if (newsText !== '') {
+        
+    }
+} )
